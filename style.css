@@ -14,14 +14,11 @@ html{
 /* slider part design start */
 .slider-bg{
     background: #e6b6c6;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 40px;
+  
 }
 .slider-image-style img{
     width: 300px !important;
-}
-.my-content{
-    margin-top: 60px;
 }
 .my-content h1{
     font-weight: bold;
@@ -32,12 +29,17 @@ html{
 }
 .my-content h2{
     font-weight: bold;
-    color: rgb(246, 1, 173) !important;
+    color: #FF247A !important;
 }
 .btn-custom{
-    background: rgb(144, 68, 122) !important;
+    background: #FF247A !important;
     margin-top: 10px;
     color: #ffffff;
     font-size: 14px;
+}
+.btn-custom:hover{
+    border: 2px solid #ffffff;
+    background: none !important;
+    color: #242323;
 }
 /* slider part design end */
