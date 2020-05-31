@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header area design start */
+.bg-color{
+    background: #eceaea;
+}
+/* header area design end */
+
+/* slider part design start */
+.slider-bg{
+    background: #e6b6c6;
+    padding: 20px;
+    margin-top: 50px;
+}
+.slider-image-style img{
+    width: 300px !important;
+}
+.my-content{
+    margin-top: 60px;
+}
+.my-content h1{
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+.my-content p{
+    color: #000000;
+}
+.my-content h2{
+    font-weight: bold;
+    color: rgb(246, 1, 173) !important;
+}
+.btn-custom{
+    background: rgb(144, 68, 122) !important;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+/* slider part design end */
