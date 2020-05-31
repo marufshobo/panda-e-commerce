@@ -1,115 +1,163 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /* header area design start */
-.bg-color{
+
+.bg-color {
     background: #eceaea;
 }
+
 /* header area design end */
 
 /* slider part design start */
-.slider-bg{
+
+.slider-bg {
     background: #e6b6c6;
     padding: 40px;
-  
 }
-.slider-image-style img{
+
+.slider-image-style img {
     width: 300px !important;
 }
-.my-content h1{
+
+.my-content h1 {
     font-weight: bold;
     color: rgb(85, 85, 85);
 }
-.my-content p{
+
+.my-content p {
     color: #000000;
 }
-.my-content h2{
+
+.my-content h2 {
     font-weight: bold;
     color: #FF247A !important;
 }
-.btn-custom{
+
+.btn-custom {
     background: #FF247A !important;
     margin-top: 10px;
     color: #ffffff;
     font-size: 14px;
 }
-.btn-custom:hover{
+
+.btn-custom:hover {
     border: 2px solid #ffffff;
     background: none !important;
     color: #242323;
 }
+
 /* slider part design end */
+
 /* catagory part start */
+
 .my-catagory {
-	background: linear-gradient(rgb(245, 200, 117), orange);
-	margin-top: 40px;
+    background: linear-gradient(rgb(245, 200, 117), orange);
+    margin-top: 40px;
     padding: 0px 10px;
     cursor: pointer;
     border-radius: 10px;
     color: #ffffff;
-    
-    
 }
+
 .my-catagory-2 {
-	background: linear-gradient(rgb(230, 46, 123), rgb(223, 136, 218));
-	margin-top: 40px;
+    background: linear-gradient(rgb(230, 46, 123), rgb(223, 136, 218));
+    margin-top: 40px;
     padding: 0px 10px;
     cursor: pointer;
     border-radius: 10px;
-    color: #ffffff;  
-    
+    color: #ffffff;
 }
+
 .my-catagory-3 {
-	background: linear-gradient(rgb(54, 42, 224), rgb(104, 137, 246));
-	margin-top: 40px;
+    background: linear-gradient(rgb(54, 42, 224), rgb(104, 137, 246));
+    margin-top: 40px;
     padding: 0px 10px;
     cursor: pointer;
     border-radius: 10px;
-    color: #ffffff;  
-    
+    color: #ffffff;
 }
-.my-catagory h1,.my-catagory-2 h1,.my-catagory-3 h1{
+
+.my-catagory h1, .my-catagory-2 h1, .my-catagory-3 h1 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-.catagory img{
+
+.catagory img {
     width: 120px;
 }
+
 /* catagory part end */
 
 /* fetured part start */
-.fetured{
+
+.fetured {
     padding: 60px 0;
 }
 
-.fetured-title{
+.fetured-title {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
 .my-fetured {
-	box-shadow: 3px 2px 7px #dddddd;
-	width: 300px;
+    box-shadow: 3px 2px 7px #dddddd;
+    width: 300px;
 }
-.my-fetured h5,.my-fetured h4{
+
+.my-fetured h5, .my-fetured h4 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .card {
-	position: relative;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-color: #f4ecec;
-	background-clip: border-box;
-	border: 1px solid rgba(0,0,0,.125);
-	border-radius: .25rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f4ecec;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
 }
+
 /* fetured part end */
+
+/* sub part start */
+
+.sub {
+    padding: 60px 0;
+    background: #e6b6c6;
+}
+
+.my-sub input {
+    width: 30%;
+    padding: 5px 10px;
+}
+
+.my-sub h2 {
+    font-size: 34px;
+    font-weight: bold;
+}
+.my-sub p{
+    font-size: 20px;
+}
+
+.btn-custom-sub{
+        background: #FF247A !important;
+        color: #ffffff;
+        font-size: 14px;
+        margin-left: -24%;
+
+}
+/* sub part end */
