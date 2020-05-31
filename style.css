@@ -136,28 +136,20 @@ html {
 /* sub part start */
 
 .sub {
-    padding: 60px 0;
+    padding: 100px 0;
     background: #e6b6c6;
 }
 
-.my-sub input {
-    width: 30%;
-    padding: 5px 10px;
+.our-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-.my-sub h2 {
-    font-size: 34px;
+.our-form h3{
     font-weight: bold;
 }
-.my-sub p{
-    font-size: 20px;
-}
-
-.btn-custom-sub{
-        background: #FF247A !important;
-        color: #ffffff;
-        font-size: 14px;
-        margin-left: -24%;
-
-}
 /* sub part end */
+.footer-area{
+    padding: 15px 0;
+}
