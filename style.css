@@ -140,16 +140,19 @@ html {
     background: #e6b6c6;
 }
 
-.our-form{
+.our-form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.our-form h3{
+
+.our-form h3 {
     font-weight: bold;
 }
+
 /* sub part end */
-.footer-area{
+
+.footer-area {
     padding: 15px 0;
 }
